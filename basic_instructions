@@ -1,0 +1,9 @@
+# Create new project directory and init 
+mkdir ai_finance_dashboard
+cd ai_finance_dashboard
+git init
+
+# Create virtual environment and download Flask
+python3 -m venv venv
+source venv/bin/activate
+pip install Flask
